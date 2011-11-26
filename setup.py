@@ -3,7 +3,7 @@
 from numpy.distutils.core import setup, Extension
 from os import environ as env
 
-version = '0.1'
+version = '0.2'
 
 define_macros=[
    ('PY_RT_VERSION',          '\\\"%s\\\"' % version),
